@@ -1,7 +1,8 @@
 {
   "name": "FIXLAB - El laboratorio de los reparadores",
   "short_name": "FIXLAB",
-  "start_url": "./fixlab.html",
+  "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#07111f",
   "theme_color": "#00e5ff",
