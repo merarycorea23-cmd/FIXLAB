@@ -8,5 +8,5 @@
   "theme_color": "#00e5ff",
   "orientation": "landscape",
   "description": "Videojuego educativo de reparación de dispositivos tecnológicos.",
-  "icons": []
+  "id": "fixlab"
 }
