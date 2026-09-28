@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#00e5ff">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>FIXLAB X — Laboratorio de Reparación</title>
@@ -3503,6 +3505,15 @@ updateStats();
 setupWorkshop();
 
 </script>
-
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("./sw.js")
+      .then(() => console.log("FIXLAB offline listo"))
+      .catch(error => console.error("Error del modo offline:", error));
+  });
+}
+</script>
+    
 </body>
 </html>
