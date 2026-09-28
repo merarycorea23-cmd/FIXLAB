@@ -1,8 +1,8 @@
-const CACHE_NAME = "fixlab-offline-v1";
+const CACHE_NAME = "fixlab-offline-v2";
 
 const FILES_TO_CACHE = [
   "./",
-  "./fixlab.html",
+  "./index.html",
   "./manifest.json"
 ];
 
