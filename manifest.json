@@ -1,12 +1,19 @@
 {
   "name": "FIXLAB - El laboratorio de los reparadores",
   "short_name": "FIXLAB",
+  "id": "./",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#07111f",
+  "background_color": "#000000",
   "theme_color": "#00e5ff",
   "orientation": "landscape",
   "description": "Videojuego educativo de reparación de dispositivos tecnológicos.",
-  "id": "fixlab"
+  "icons": [
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
